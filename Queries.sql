@@ -1,5 +1,7 @@
+
+
 create database dac_dbt; use dac_dbt; 
- 
+
 create table dept( deptcode varchar(15), deptname varchar(60), budget int); 
  
 create table grade( gradecode varchar(15), gradelevel varchar(30), gradedescription varchar(60), 
